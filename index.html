@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="这是大笨钟的个人网站" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>大笨钟的个人网站</title>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        background-color: #eee;
+      }
+      /* * {
+            border: 1px solid black;
+        } */
+      .yinYing {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      }
+      .flex {
+        display: flex;
+      }
+      .baiSe {
+        background-color: #fff;
+      }
+      .flex1 {
+        flex: 1;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .mg8 {
+        margin: 8px;
+      }
+      .mgr8 {
+        margin-right: 8px;
+      }
+      .mgt8 {
+        margin-top: 8px;
+      }
+      .daoHang {
+        padding: 10px 20px;
+        border-bottom: 1px solid #999;
+        font-size: 14px;
+        color: #666;
+      }
+      .lanSe {
+        color: #3166d0;
+      }
+      .neiRongqu::-webkit-scrollbar {
+        display: none;
+      }
+      .box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body class="flex">
+    <!--侧边栏-->
+    <div style="width: 200px; z-index: 3" class="baiSe yinYing">
+      <!-- 头像栏 -->
+      <div
+        style="
+          padding: 10px;
+          justify-content: center;
+          align-items: center;
+          border-bottom: 1px solid #999;
+        "
+        class="flex"
+      >
+        <img
+          src="https://s1.328888.xyz/2022/07/28/DrFjB.jpg"
+          width="40px"
+          height="40px"
+          alt="头像"
+        />
+        <div style="margin-left: 10px">大笨钟</div>
+      </div>
+      <!-- 导航栏 -->
+      <div class="flex1">
+        <div class="daoHang">学习导航</div>
+        <div class="daoHang">
+          <a
+            href="https://www.midorg.com/"
+            target="_blank"
+            style="text-decoration: none"
+            class="lanSe"
+            >元岛</a
+          >
+        </div>
+        <div class="daoHang">
+          <a
+            href="https://space.bilibili.com/34786453"
+            target="_blank"
+            style="text-decoration: none"
+            class="lanSe"
+            >Re01学习</a
+          >
+        </div>
+        <div class="daoHang">
+          <a
+            href="https://metaisland.feishu.cn/mindnotes/bmncnVm87LbPlQF0jigDuSegubd#mindmap"
+            target="_blank"
+            style="text-decoration: none"
+            class="lanSe"
+            >Re01知识图谱</a
+          >
+        </div>
+        <div class="daoHang">
+          <a
+            href="https://www.runoob.com/"
+            target="_blank"
+            style="text-decoration: none"
+            class="lanSe"
+            >菜鸟教程</a
+          >
+        </div>
+        <div class="daoHang">
+          <a
+            href="https://www.icoderoad.com/learn/?from=from_parent_mindnote"
+            target="_blank"
+            style="text-decoration: none"
+            class="lanSe"
+            >路条实例练习</a
+          >
+        </div>
+        <div class="daoHang">常用网站</div>
+        <div class="daoHang">
+          <a
+            href="https://github.com/"
+            target="_blank"
+            style="text-decoration: none"
+            class="lanSe"
+            >GitHub</a
+          >
+        </div>
+        <div class="daoHang">
+          <a
+            href="https://translate.google.cn/"
+            target="_blank"
+            style="text-decoration: none"
+            class="lanSe"
+            >谷歌翻译</a
+          >
+        </div>
+        <div class="daoHang">
+          <a
+            href="https://t.bilibili.com/?spm_id_from=333.1007.0.0"
+            target="_blank"
+            style="text-decoration: none"
+            class="lanSe"
+            >B站</a
+          >
+        </div>
+      </div>
+    </div>
+    <!--主区域-->
+    <div class="flex1 flex column">
+      <!--头部栏-->
+      <div style="height: 60px; z-index: 2" class="baiSe yinYing">
+        <div
+          style="
+            font-family: Microsoft YaHei;
+            font-size: 30px;
+            justify-content: center;
+          "
+          class="flex mgt8"
+        >
+          大笨钟的个人网站 v1.0
+        </div>
+      </div>
+      <!--内容区-->
+      <div style="overflow: auto" class="flex1 flex neiRongqu">
+        <!-- 左区 -->
+        <div style="flex: 3" class="flex column mg8">
+          <!-- 数据区 -->
+          <div class="flex">
+            <!-- 数据块 -->
+            <div style="height: 100px" class="flex1 baiSe yinYing mgr8">
+              <div
+                style="
+                  justify-content: center;
+                  align-items: center;
+                  margin-top: 30px;
+                "
+                class="flex"
+              ></div>
+            </div>
+            <div style="height: 100px" class="flex1 baiSe yinYing mgr8"></div>
+            <div style="height: 100px" class="flex1 baiSe yinYing mgr8"></div>
+            <div style="height: 100px" class="flex1 baiSe yinYing mgr8"></div>
+          </div>
+          <!-- 列表区 -->
+          <div class="flex column">
+            <!-- 列表项 -->
+            <div
+              style="
+                height: 160px;
+                align-items: center;
+                justify-content: center;
+              "
+              class="flex baiSe yinYing mgt8"
+            >
+              <div class="flex">我是大笨钟，这是我的个人网站</div>
+            </div>
+            <div
+              style="
+                height: 160px;
+                align-items: center;
+                justify-content: center;
+              "
+              class="flex baiSe yinYing mgt8"
+            >
+              <div class="flex">
+                希望能跟着康哥的步伐，成为智能、数字时代下的全栈工程师
+              </div>
+            </div>
+            <div style="height: 160px" class="baiSe yinYing mgt8 box"></div>
+            <div style="height: 160px" class="baiSe yinYing mgt8"></div>
+            <div style="height: 160px" class="baiSe yinYing mgt8"></div>
+            <div style="height: 160px" class="baiSe yinYing mgt8"></div>
+          </div>
+        </div>
+        <!-- 右区 -->
+        <div style="flex: 1" class="flex column mgr8 mgt8">
+          <div style="height: 300px" class="baiSe yinYing box">
+            <div class="box">
+              <input placeholder="今天最重要的事情" id="shuRu" />
+              <span id="anNiu" onclick="change()">√</span>
+            </div>
+          </div>
+          <div style="height: 300px" class="baiSe yinYing mgt8"></div>
+          <div style="height: 300px" class="baiSe yinYing mgt8"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      let done = false;
+
+      function change() {
+        let shuRu = document.getElementById("shuRu");
+        let anNiu = document.getElementById("anNiu");
+
+        if (done) {
+          done = false;
+          anNiu.innerText = "√";
+          shuRu.value = "";
+          shuRu.readOnly = false;
+          window.localStorage.removeItem("something");
+        } else {
+          done = true;
+          anNiu.innerText = "✘";
+          shuRu.readOnly = true;
+          window.localStorage.setItem("something", shuRu.value);
+        }
+      }
+      let data = window.localStorage.getItem("something");
+      if (data) {
+        document.getElementById("shuRu").value = data;
+        change();
+      }
+    </script>
+  </body>
+</html>
